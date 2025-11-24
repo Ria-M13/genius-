@@ -1,0 +1,25 @@
+.button {
+  background: var(--color-brand-normal);
+  border: 2px solid var(--color-brand-normal);
+  width: 238;
+  height: 59;
+  gap: 10px;
+  opacity: 1;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 16px 32px;
+  width: 174;
+  height: 27;
+  opacity: 1;
+  font-weight: 600;
+  font-style: SemiBold;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--color-primary-light);
+  cursor: pointer;
+}
+
+.button:hover {
+  background: transparent;
+  color: var(--color-brand-dark);
+}
